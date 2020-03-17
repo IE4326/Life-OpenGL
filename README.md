@@ -2,9 +2,9 @@
 
 ![Alt text](screenshot.png?raw=true "Screenshot")
 
-Для компиляции прилинковать opengl32.lib и библиотеки из папки lib.
-У меня откомпилировалось командой через консоль VS командой
-cl /MD /I "путьдопапки\include" main.cpp Render.cpp io.cpp opengl32.lib kernerl32.lib user32.lib shell32.lib путьдопапки\lib\glfw3.lib путьдопапки\lib\glew32.lib gdi32.lib
+Для компиляции прилинковать opengl32.lib и библиотеки из папки lib.  
+У меня откомпилировалось через консоль VS командой  
+cl /MD /I "путьдопапки\include" main.cpp Render.cpp io.cpp opengl32.lib gdi32.lib kernel32.lib user32.lib shell32.lib путьдопапки\lib\glfw3.lib путьдопапки\lib\glew32.lib
 
 Реализация игры Life со всякими фичами. Можно сохранять, загружать вселенную, менять цветовые схемы, редактировать с помощью клавиатуры и мыши, переключать воспроизведение и ещё всякое.  
 --Управление--  
